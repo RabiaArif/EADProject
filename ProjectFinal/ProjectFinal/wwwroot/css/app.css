@@ -93,7 +93,7 @@ a, .btn-link {
 
 .cardFooter {
     margin-right: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: inherit;
     background: #3A0647;
@@ -831,7 +831,7 @@ select > opation:focus {
     padding: 12px;
     width: 195px;
     background-color: #fff;
-    margin-left: 10px;
+    margin-left: 100px;
     z-index: 3;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
     -webkit-transform: scaleX(0);
@@ -953,3 +953,4 @@ nav#menu span.fa.fa-bars:hover {
         left: 12px;
         font-size: 18px;
     }
+

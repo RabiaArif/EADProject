@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\Desktop\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj": {}
+    "C:\\Users\\UMAIR AHMED\\Downloads\\EADProject-master\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\Desktop\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj": {
+    "C:\\Users\\UMAIR AHMED\\Downloads\\EADProject-master\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
+        "projectUniqueName": "C:\\Users\\UMAIR AHMED\\Downloads\\EADProject-master\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
         "projectName": "ProjectFinal",
-        "projectPath": "C:\\Users\\Home\\Desktop\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\ProjectFinal\\ProjectFinal\\obj\\",
+        "projectPath": "C:\\Users\\UMAIR AHMED\\Downloads\\EADProject-master\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
+        "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UMAIR AHMED\\Downloads\\EADProject-master\\ProjectFinal\\ProjectFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.6, 5.0.6]"
+              "version": "[5.0.4, 5.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
