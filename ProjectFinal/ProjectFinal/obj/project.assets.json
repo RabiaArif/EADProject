@@ -1149,11 +1149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\Desktop\\ead\\EADProject\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\Desktop\\Umair\\EADProject\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
       "projectName": "ProjectFinal",
-      "projectPath": "C:\\Users\\Home\\Desktop\\ead\\EADProject\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
+      "projectPath": "C:\\Users\\Home\\Desktop\\Umair\\EADProject\\ProjectFinal\\ProjectFinal\\ProjectFinal.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\Desktop\\ead\\EADProject\\ProjectFinal\\ProjectFinal\\obj\\",
+      "outputPath": "C:\\Users\\Home\\Desktop\\Umair\\EADProject\\ProjectFinal\\ProjectFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
