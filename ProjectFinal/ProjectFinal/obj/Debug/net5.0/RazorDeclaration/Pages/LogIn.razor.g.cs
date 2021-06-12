@@ -98,26 +98,23 @@ using ProjectFinal.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 90 "C:\Users\Home\Desktop\Umair\EADProject\ProjectFinal\ProjectFinal\Pages\LogIn.razor"
+#line 97 "C:\Users\Home\Desktop\Umair\EADProject\ProjectFinal\ProjectFinal\Pages\LogIn.razor"
        
         string status   = "Form not submitted";
     void FormSubmitted() {
             status   = "Form submitted";}     
 
     Person person = new Person {
-        FName = "XYZ",
-        LName = "ABC",
         UserName = "CDF",
         Password = "123"
+		Email = "abcgmail.com"
     };
 
     public class Person {
-        public string FName {get; set;}
-        public string LName {get; set;}
+        public string Email {get; set;}
         public string UserName {get; set;}
         public string Password {get; set;}    
     }
-
 
 #line default
 #line hidden
