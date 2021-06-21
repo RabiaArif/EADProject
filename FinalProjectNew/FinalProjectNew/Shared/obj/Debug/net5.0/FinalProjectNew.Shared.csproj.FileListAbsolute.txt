@@ -1,0 +1,11 @@
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\bin\Debug\net5.0\FinalProjectNew.Shared.deps.json
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\bin\Debug\net5.0\FinalProjectNew.Shared.dll
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\bin\Debug\net5.0\ref\FinalProjectNew.Shared.dll
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\bin\Debug\net5.0\FinalProjectNew.Shared.pdb
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.AssemblyInfo.cs
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.dll
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\ref\FinalProjectNew.Shared.dll
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Shared\obj\Debug\net5.0\FinalProjectNew.Shared.pdb

@@ -1,0 +1,127 @@
+﻿<!-- Featured Jobs Section Start -->
+    <section class="featured-jobs section">
+        <div class="container">
+            <h2 class="section-title">
+              Featured Jobs
+            </h2>
+            <div class="row">
+                
+                <JobComponent></JobComponent>
+                <JobComponent></JobComponent>
+                <JobComponent></JobComponent>
+                <JobComponent></JobComponent>
+                <JobComponent></JobComponent>
+                <JobComponent></JobComponent>
+
+            </div>
+        </div>     
+    </section>
+    <!-- Featured Jobs Section End -->
+
+
+<style>
+    .featured-jobs .featured-item {
+   
+      position: relative;
+      margin-bottom: 30px;
+      border: 1px solid #f1f1f1;
+      border-radius: 0px;
+      -webkit-transition: all 0.15s ease;
+      -moz-transition: all 0.15s ease;
+      -o-transition: all 0.15s ease;
+      transition: all 0.15s ease;
+      cursor: pointer;
+      -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
+      -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
+      transition: transform 0.2s linear, box-shadow 0.2s linear;
+    }
+    .featured-jobs .featured-item:hover {
+      box-shadow: 0 13px 21px rgba(0, 0, 0, 0.13);
+      -webkit-box-shadow: 0 13px 21px rgba(0, 0, 0, 0.13);
+      -moz-box-shadow: 0 13px 21px rgba(0, 0, 0, 0.13);
+    }
+    .featured-jobs .featured-wrap {
+      background: #fff;
+      width: 100%;
+      padding: 8px;
+    }
+    .featured-jobs .item-thumb {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all 0.15s ease;
+      -moz-transition: all 0.15s ease;
+      -o-transition: all 0.15s ease;
+      transition: all 0.15s ease;
+    }
+    .featured-jobs .item-thumb a {
+      display: block;
+    }
+    .featured-jobs .item-thumb:hover {
+      opacity: 0.9;
+    }
+    .featured-jobs .item-body {
+      padding: 20px 12px 10px;
+      width: 100%;
+    }
+    .featured-jobs .item-body .job-title {
+      margin: 0 0 4px 0;
+    }
+    .featured-jobs .item-body .job-title a {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    .featured-jobs .item-body .job-title a:hover {
+      color: #ff4f57;
+    }
+    .featured-jobs .item-body .adderess {
+      color: #999;
+      font-size: 14px;
+      line-height: 22px;
+      margin: 0;
+    }
+    .featured-jobs .item-foot {
+      background: #fff;
+      display: inline-block;
+      width: 100%;
+      border-top: 1px solid #e5e5e5;
+      padding: 14px 20px;
+      position: relative;
+    }
+    .featured-jobs .item-foot a {
+      color: #999;
+    }
+    .featured-jobs .item-foot a:hover {
+      color: #ff4f57;
+    }
+    .featured-jobs .item-foot span {
+      color: #999;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      margin-right: 10px;
+    }
+    .featured-jobs .item-foot span i {
+      margin-right: 5px;
+    }
+    .featured-jobs .item-foot .view-iocn {
+      position: absolute;
+      top: -24px;
+      right: 24px;
+    }
+    .featured-jobs .item-foot .view-iocn a {
+      width: 48px;
+      display: block;
+      background: #ff4f57;
+      color: #fff;
+      font-size: 20px;
+      height: 48px;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 50px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+</style>
+@code {
+
+}
