@@ -1,4 +1,6 @@
-﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+﻿@inject NavigationManager UriHelper
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
    <div class="container-fluid">
     <a class="navbar-brand">
@@ -26,7 +28,10 @@
           <button class="btn btn-outline-danger" type="button">Post A job</button>
         </li>
         <li class="nav-item">
-          <button class="btn btn-outline-danger" type="button">Log in</button>
+          <button @onclick=@NavigateLogIn class="btn btn-outline-danger" type="button">Log in</button>
+        </li>
+        <li class="nav-item">
+          <button @onclick=@NavigateSignUp class="btn btn-outline-danger" type="button">Sign Up</button>
         </li>
       </ul>
     </div>
@@ -34,5 +39,12 @@
 </nav>
 
 @code {
-    
+    void NavigateLogIn()
+    {
+        UriHelper.NavigateTo("login");
+    }
+    void NavigateSignUp()
+    {
+        UriHelper.NavigateTo("signup");
+    }
 }

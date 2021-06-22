@@ -97,26 +97,21 @@ using FinalProjectNew.Client.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 25 "C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\Controls\LogInForm.razor"
+#line 92 "C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\Controls\LogInForm.razor"
        
     string status = "Form is not submitted";
     void FormSubmitted() {
         status = "Form is submitted";
-
     }
     Person person = new Person {
         Name = "Ali",
-        Age = 4,
         Email = "ali@gmail.com"
     };
 
     public class Person {
         public string Name { get; set; }
-        public int Age { get; set; }
         public string Email { get; set; }
-
     }
-
 
 #line default
 #line hidden

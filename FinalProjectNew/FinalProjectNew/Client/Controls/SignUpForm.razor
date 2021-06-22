@@ -14,16 +14,16 @@
                 <InputText id="email" @bind-Value="person.Email" class="form-control" name="email"></InputText>
             </div>
         </div>
-        
-        
-        <input class="btn btn-common log-btn" type="submit" value="Save" />
-
-        <div class="checkbox-item">
-            <div class="checkbox">
-                <label for="rememberme" class="rememberme">
-                <input name="rememberme" id="rememberme" value="forever" type="checkbox"> Remember Me</label>
+        <div class="form-group">
+            <div class="input-icon" style="display:inline;">
+                <i class="fas fa-lock"></i>
+                <label for="password">Password : </label>
+                <InputText id="email" @bind-Value="person.Password" class="form-control" name="password"></InputText>
             </div>
         </div>
+        
+        
+        <input class="btn btn-common log-btn" type="submit" value="Register" />
                       
     </EditForm>
 </div>
@@ -96,11 +96,13 @@
     }
     Person person = new Person {
         Name = "Ali",
-        Email = "ali@gmail.com"
+        Email = "ali@gmail.com",
+        Password = "abc"
     };
 
     public class Person {
         public string Name { get; set; }
         public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

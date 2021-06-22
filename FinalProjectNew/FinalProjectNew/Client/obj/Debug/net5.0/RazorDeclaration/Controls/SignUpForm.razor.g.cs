@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FinalProjectNew.Client.Shared
+namespace FinalProjectNew.Client.Controls
 {
     #line hidden
     using System;
@@ -89,7 +89,7 @@ using FinalProjectNew.Client.Controls;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class SignUpForm : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,21 +97,27 @@ using FinalProjectNew.Client.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 41 "C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\Shared\NavMenu.razor"
+#line 92 "C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\Controls\SignUpForm.razor"
        
-    void NavigateLogIn()
-    {
-        UriHelper.NavigateTo("login");
+    string status = "Form is not submitted";
+    void FormSubmitted() {
+        status = "Form is submitted";
     }
-    void NavigateSignUp()
-    {
-        UriHelper.NavigateTo("signup");
+    Person person = new Person {
+        Name = "Ali",
+        Email = "ali@gmail.com",
+        Password = "abc"
+    };
+
+    public class Person {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager UriHelper { get; set; }
     }
 }
 #pragma warning restore 1591
