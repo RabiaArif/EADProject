@@ -879,11 +879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Server\\FinalProjectNew.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Server\\FinalProjectNew.Server.csproj",
       "projectName": "FinalProjectNew.Server",
-      "projectPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Server\\FinalProjectNew.Server.csproj",
+      "projectPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Server\\FinalProjectNew.Server.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -900,11 +900,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Client\\FinalProjectNew.Client.csproj": {
-              "projectPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Client\\FinalProjectNew.Client.csproj"
+            "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Client\\FinalProjectNew.Client.csproj": {
+              "projectPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Client\\FinalProjectNew.Client.csproj"
             },
-            "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {
-              "projectPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj"
+            "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {
+              "projectPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj"
             }
           }
         }

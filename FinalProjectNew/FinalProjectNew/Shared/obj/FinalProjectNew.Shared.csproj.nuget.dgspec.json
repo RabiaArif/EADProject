@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {}
+    "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {
+    "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj",
         "projectName": "FinalProjectNew.Shared",
-        "projectPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj",
+        "projectPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\FinalProjectNew.Shared.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\FinalProjectNew\\FinalProjectNew\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Home\\Desktop\\EADProject\\FinalProjectNew\\FinalProjectNew\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
