@@ -6,7 +6,112 @@
     background-size: 100% 100%;*/
 }
 
-/*@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900');
+/*
+    <div class="card">
+    <h4 class="card-header">Login</h4>
+    <div class="card-body">
+        <EditForm Model="@person" OnValidSubmit="FormSubmitted">
+            
+            <div class="form-group">
+                <label>Username</label>
+                <InputText @bind-Value="person.Name" class="form-control" />
+                
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <InputText @bind-Value="person.Email" type="password" class="form-control" />
+                
+            </div>
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+                Login
+            </button>
+            <NavLink href="/register" class="btn btn-link">Register</NavLink>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    string status = "Form is not submitted";
+    void FormSubmitted() {
+        status = "Form is submitted";
+
+    }
+    Person person = new Person {
+        Name = "Ali",
+        Age = 4,
+        Email = "ali@gmail.com"
+    };
+
+    public class Person {
+        public string Name { get; set; }
+        public string Email { get; set; }
+
+    }
+
+}
+
+
+
+
+
+    @page "/register"
+
+
+<div class="card">
+    <h4 class="card-header">Register</h4>
+    <div class="card-body">
+        <EditForm Model="" OnValidSubmit="OnValidSubmit">
+            <DataAnnotationsValidator />
+            <div class="form-group">
+                <label>First Name</label>
+                <InputText @bind-Value="" class="form-control" />
+                <ValidationMessage For="" />
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <InputText @bind-Value="" class="form-control" />
+                <ValidationMessage For="" />
+            </div>
+            <div class="form-group">
+                <label>Username</label>
+                <InputText @bind-Value="" class="form-control" />
+                <ValidationMessage For="" />
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <InputText @bind-Value="" type="password" class="form-control" />
+                <ValidationMessage For="" />
+            </div>
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+                Register
+            </button>
+            <NavLink href="/login" class="btn btn-link">Cancel</NavLink>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900');
  ==========================================================================
    Gobal Styles
    ========================================================================== 

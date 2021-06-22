@@ -1,0 +1,44 @@
+﻿<EditForm Model="@person" OnSubmit="FormSubmitted">
+    <label for="Name">Name : </label>
+    <InputText id="name" @bind-Value="person.Name"></InputText>
+        <br />
+    <label for="Age">Age : </label>
+    <InputNumber id="age" @bind-Value="person.Age"></InputNumber>
+        <br />
+    <label for="Email">Email : </label>
+    <InputText id="email" @bind-Value="person.Email"></InputText>
+        <br />
+    <input class="btn btn-common" type="submit" value="Save" />
+</EditForm>
+
+<style>
+    .btn-common {
+      background-color: #ff4f57;
+      border: none;
+      border-radius: 50px;
+      text-transform: uppercase;
+      overflow: hidden;
+      position: relative;
+    }
+</style>
+
+@code {
+    string status = "Form is not submitted";
+    void FormSubmitted() {
+        status = "Form is submitted";
+
+    }
+    Person person = new Person {
+        Name = "Ali",
+        Age = 4,
+        Email = "ali@gmail.com"
+    };
+
+    public class Person {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Email { get; set; }
+
+    }
+
+}

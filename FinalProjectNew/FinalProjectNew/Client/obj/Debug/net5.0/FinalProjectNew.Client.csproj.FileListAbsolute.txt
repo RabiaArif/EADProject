@@ -640,3 +640,7 @@ C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\Ra
 C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\Razor\Controls\FeaturedJobs.razor.g.cs
 C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\RazorDeclaration\Controls\PurchaseSection.razor.g.cs
 C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\Razor\Controls\PurchaseSection.razor.g.cs
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\RazorDeclaration\Pages\LogIn.razor.g.cs
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\Razor\Pages\LogIn.razor.g.cs
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\RazorDeclaration\Controls\LogInForm.razor.g.cs
+C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\obj\Debug\net5.0\Razor\Controls\LogInForm.razor.g.cs

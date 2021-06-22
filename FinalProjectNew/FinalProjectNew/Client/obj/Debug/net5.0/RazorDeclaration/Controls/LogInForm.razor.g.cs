@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FinalProjectNew.Client.Shared
+namespace FinalProjectNew.Client.Controls
 {
     #line hidden
     using System;
@@ -89,13 +89,38 @@ using FinalProjectNew.Client.Controls;
 #line default
 #line hidden
 #nullable disable
-    public partial class FooterComponent : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class LogInForm : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 25 "C:\Users\Home\Desktop\FinalProjectNew\FinalProjectNew\Client\Controls\LogInForm.razor"
+       
+    string status = "Form is not submitted";
+    void FormSubmitted() {
+        status = "Form is submitted";
+
+    }
+    Person person = new Person {
+        Name = "Ali",
+        Age = 4,
+        Email = "ali@gmail.com"
+    };
+
+    public class Person {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Email { get; set; }
+
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

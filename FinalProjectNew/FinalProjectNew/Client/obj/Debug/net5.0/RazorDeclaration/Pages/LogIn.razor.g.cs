@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FinalProjectNew.Client.Shared
+namespace FinalProjectNew.Client.Pages
 {
     #line hidden
     using System;
@@ -89,7 +89,8 @@ using FinalProjectNew.Client.Controls;
 #line default
 #line hidden
 #nullable disable
-    public partial class FooterComponent : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/login")]
+    public partial class LogIn : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
